@@ -1,0 +1,78 @@
+body {
+    margin: 0 auto;    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/14/23/04/diagonal-6016147_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.list {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 1250px;
+    height: 625px;
+    color: black;
+    backdrop-filter: blur(6px);
+    overflow-x: scroll;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.157);
+    background-color: rgba(255, 255, 255, 0.297);
+    scrollbar-width: none;
+}
+.list .li {
+    font-size: 4rem;
+}
+.list form {
+    position: absolute;
+    bottom: 0px;
+}
+.list form input {
+    width: 1116px;
+    height: 43px;
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-bottom-left-radius: 5px;
+    color: white;
+    outline: none;
+}
+.list form .submit {
+    border: none;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    height: 43px;
+    width: 134px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: -9px;
+    position: relative;
+    bottom: -3px;    
+}
+#clears {
+    color: rgba(255, 0, 170, 0.348);
+    position: absolute;
+    font-size: 1rem;
+    bottom: 580px;
+    left: 1150px;
+}
